@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>961</width>
+    <height>778</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="4" column="0">
+    <widget class="QPushButton" name="loadButton">
+     <property name="text">
+      <string>szyfruj tekst</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2" rowspan="3">
+    <widget class="QTextEdit" name="textEdit_2"/>
+   </item>
+   <item row="6" column="0">
+    <widget class="QPushButton" name="loadButton_2">
+     <property name="text">
+      <string>deszyfruj tekst</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QPushButton" name="clearButton_3">
+     <property name="text">
+      <string>wyczyść tekst</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="clearButton_2">
+     <property name="text">
+      <string>wyczyść tekst</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="3">
+    <widget class="QPushButton" name="wczytajzaszyfrowany">
+     <property name="text">
+      <string>wczytaj zaszyfrowany plik</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3">
+    <widget class="QPushButton" name="pushtext">
+     <property name="text">
+      <string>Przenieś tekst na dół</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="3">
+    <widget class="QPushButton" name="zapiszodszyfrowany">
+     <property name="text">
+      <string>zapisz do pliku</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2" rowspan="2">
+    <widget class="QTextEdit" name="textEdit_3"/>
+   </item>
+   <item row="2" column="3">
+    <widget class="QPushButton" name="wczytajdozaszyfrowania">
+     <property name="text">
+      <string>wczytaj text z pliku</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="3">
+    <widget class="QPushButton" name="zapiszzaszyfrowany">
+     <property name="text">
+      <string>zapisz do pliku</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QPushButton" name="genizapisz">
+     <property name="text">
+      <string>generuj klucz i zapisz</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
